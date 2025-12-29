@@ -1,0 +1,71 @@
+body {
+    background-color: #f9f9f9;
+}
+
+/* ตั้งค่าหน้าจอให้สามารถแสดง Footer แบบเหมาะสม */
+.container-fluid {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.midpoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbars {
+    height: 60px;
+    background-color: #ffcb0b;
+}
+
+.logonokair {
+    height: 30px;
+}
+
+.logo {
+    width: 140px;
+    border-radius: 100px;
+    filter: drop-shadow(0 0 100px rgba(255, 203, 10, 0.8));
+}
+
+.btns {
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgnotfound {
+    width: 80%;
+    height: 80%;
+}
+
+.textnotfound {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn_microsoft {
+    background-color: yellow;
+    height: 80px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.headers {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.headers p {
+    margin-bottom: 5px; /* เอาระยะขอบล่างออก */
+}
+
+.custom-loading-popup {
+    height: 250px;
+    max-height: 80%;
+}
