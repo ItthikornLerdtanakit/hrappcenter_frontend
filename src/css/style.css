@@ -37,13 +37,14 @@ body {
 }
 
 .imgnotfound {
-    width: 80%;
-    height: 80%;
+    width: 50%;
 }
 
 .textnotfound {
     text-align: center;
     font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
 }
 
 .btn_microsoft {
@@ -68,4 +69,14 @@ body {
 .custom-loading-popup {
     height: 250px;
     max-height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .imgnotfound {
+        width: 100%;
+    }
+
+    .textnotfound{
+        font-size: 25px;
+    }
 }
