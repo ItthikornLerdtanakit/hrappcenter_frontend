@@ -26,7 +26,7 @@ const Notfound = () => {
                         <Col md={12}>
                             <Row>
                                 <Col md={12} className='midpoint'>
-                                    <img className='imgnotfound' src={Notfounds} alt="ไม่พบหน้า" />
+                                    <img className='imgnotfound' src={Notfounds} alt='ไม่พบหน้า' />
                                 </Col>
                                 <Col md={12} className='textnotfound'>
                                     <p>ไม่พบหน้า กรุณาตรวจสอบ URL อีกครั้ง</p>
