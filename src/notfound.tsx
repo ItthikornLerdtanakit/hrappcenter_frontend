@@ -18,7 +18,7 @@ const Notfound = () => {
     }, []); 
 
     return (
-        <Container fluid className='vh-100' style={{overflow: 'hidden'}}>
+        <Container fluid className='vh-100' style={{ overflow: 'hidden' }}>
             <Navbars />
             <Row className='m-un h-100'>
                 <Container className='midpoint'>
